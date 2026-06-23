@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MHC Documentation</title>
+
+<style>
+body{
+    background:#061538;
+    color:#ffffff;
+    font-family:Segoe UI,Arial,sans-serif;
+    margin:0;   
+    line-height:1.7;
+}
+
+.container{
+    max-width:1400px;
+    margin:auto;
+}
+
+h1,h2,h3{
+    color:#4ade80;
+}
+
+.card{
+    background:#1e2f50;
+    padding:25px;
+    border-radius:12px;
+    margin-bottom:30px;
+}
+
+img{
+    width:100%;
+    border-radius:10px;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+table,th,td{
+    border:1px solid #334155;
+}
+
+th{
+    background:#0f172a;
+    padding:12px;
+}
+
+td{
+    padding:12px;
+}
+
+a{
+    color:#38bdf8;
+}
+
+.badge{
+    display:inline-block;
+    padding:8px 14px;
+    background:#1e293b;
+    border-radius:20px;
+    margin:4px;
+}
+
+.back-btn{
+    display:inline-block;
+    padding:10px 20px;
+    background:#22c55e;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    margin-bottom:30px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- <a href="https://homepage.sunitdevops.site/" class="back-btn">← Back to Portfolio</a> -->
+
+<h1>🏥 My Health Clinic (MHC)</h1>
+
+<p>
+Cloud-Native Healthcare Platform demonstrating Azure DevOps, Kubernetes,
+Terraform, Docker, Infrastructure as Code and CI/CD best practices.
+</p>
+
+<div>
+<span class="badge">.NET 6</span>
+<span class="badge">Kubernetes</span>
+<span class="badge">Docker</span>
+<span class="badge">Terraform</span>
+<span class="badge">Azure DevOps</span>
+</div>
+
+<br>
+
+<div class="card">
+<h2>Overview</h2>
+
+<p>
+MHC (My Health Clinic) is a cloud-native healthcare SaaS platform built to
+demonstrate enterprise-grade DevOps, Platform Engineering,
+Kubernetes orchestration, Infrastructure as Code and
+multi-environment deployment strategies.
+</p>
+
+<p>
+The project showcases end-to-end automation using Azure DevOps,
+Terraform, Docker, Kubernetes, SQL Server,
+NGINX Ingress, Cert Manager and Cloudflare.
+</p>
+</div>
+
+<div class="card">
+<h2>Live Environments</h2>
+
+<ul>
+<li><a href="https://dev-mhc.sunitdevops.site" target="_blank">Development</a></li>
+<li><a href="https://preprod-mhc.sunitdevops.site" target="_blank">Pre-Production</a></li>
+<li><a href="https://mhc.sunitdevops.site" target="_blank">Production</a></li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Skills Demonstrated</h2>
+
+<ul>
+<li>Azure DevOps Pipelines</li>
+<li>Kubernetes Administration</li>
+<li>Docker Containerization</li>
+<li>Terraform Infrastructure as Code</li>
+<li>GitHub Flow</li>
+<li>NGINX Ingress Management</li>
+<li>Environment Promotion Strategy</li>
+<li>SQL Server Deployment</li>
+<li>TLS Certificate Automation</li>
+<li>CI/CD Automation</li>
+<li>Self-hosted Build Agents</li>
+<li>Multi-Environment Deployments</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Technology Stack</h2>
+
+<table>
+<tr>
+<th>Category</th>
+<th>Technology</th>
+</tr>
+
+<tr><td>Frontend</td><td>AngularJS</td></tr>
+<tr><td>Backend</td><td>ASP.NET Core 6</td></tr>
+<tr><td>Database</td><td>SQL Server</td></tr>
+<tr><td>Containerization</td><td>Docker</td></tr>
+<tr><td>Orchestration</td><td>Kubernetes</td></tr>
+<tr><td>Ingress</td><td>NGINX Ingress Controller</td></tr>
+<tr><td>CI/CD</td><td>Azure DevOps</td></tr>
+<tr><td>Source Control</td><td>GitHub</td></tr>
+<tr><td>IaC</td><td>Terraform</td></tr>
+<tr><td>Certificates</td><td>cert-manager</td></tr>
+<tr><td>TLS</td><td>Let's Encrypt</td></tr>
+</table>
+
+</div>
+
+<div class="card">
+<h2>Architecture Diagram</h2>
+
+<img src="docs/images/architecture.png" alt="Architecture">
+</div>
+
+<div class="card">
+<h2>Kustomize Deployment Strategy</h2>
+
+<img src="docs/images/kustomize-architecture.png" alt="Kustomize">
+
+<p>
+Reusable base manifests and environment-specific overlays
+for Dev, PreProd and Production deployments.
+</p>
+</div>
+
+<div class="card">
+<h2>Environment Strategy</h2>
+
+<table>
+<tr>
+<th>Environment</th>
+<th>Namespace</th>
+</tr>
+
+<tr><td>Development</td><td>mhc-dev</td></tr>
+<tr><td>PreProduction</td><td>mhc-preprod</td></tr>
+<tr><td>Production</td><td>mhc-prod</td></tr>
+</table>
+
+</div>
+
+<div class="card">
+<h2>Dashboard</h2>
+<img src="docs/images/dashboard.png">
+</div>
+
+<div class="card">
+<h2>Swagger API</h2>
+<img src="docs/images/swagger.png">
+</div>
+
+<div class="card">
+<h2>Pipeline Overview</h2>
+<img src="docs/images/pipeline-overview.png">
+</div>
+
+<div class="card">
+<h2>Pipeline Execution</h2>
+<img src="docs/images/pipeline-details.png">
+</div>
+
+<div class="card">
+<h2>Pipeline Stages</h2>
+<img src="docs/images/pipeline-stages.png">
+</div>
+
+<div class="card">
+<h2>Kubernetes Cluster</h2>
+<img src="docs/images/kubernetes.png">
+</div>
+
+<div class="card">
+<h2>CI/CD Flow</h2>
+
+<pre>
+Developer
+   ↓
+GitHub
+   ↓
+Azure DevOps Pipeline
+   ↓
+Terraform Validation
+   ↓
+Terraform Plan
+   ↓
+Terraform Apply
+   ↓
+Docker Build
+   ↓
+Kubernetes Deployment
+   ↓
+Dev → PreProd → Prod
+</pre>
+
+</div>
+
+<div class="card">
+<h2>Key Features</h2>
+
+<ul>
+<li>Three-environment deployment strategy</li>
+<li>Terraform Infrastructure as Code</li>
+<li>Kustomize based deployments</li>
+<li>Azure DevOps CI/CD</li>
+<li>Dockerized workloads</li>
+<li>NGINX Ingress Routing</li>
+<li>SQL Server Persistent Storage</li>
+<li>Let's Encrypt TLS Automation</li>
+<li>Environment-specific Configuration</li>
+<li>Manual Approval Gates</li>
+<li>Self-hosted Build Agents</li>
+</ul>
+
+</div>
+
+<div class="card">
+<h2>Future Enhancements</h2>
+
+<ul>
+<li>Azure Kubernetes Service (AKS)</li>
+<li>Azure Container Registry (ACR)</li>
+<li>Azure Key Vault Integration</li>
+<li>Prometheus Monitoring</li>
+<li>Grafana Dashboards</li>
+<li>Application Insights</li>
+<li>Automated Rollback Strategy</li>
+<li>GitHub Actions Integration</li>
+</ul>
+
+</div>
+
+<div class="card">
+<h2>Author</h2>
+
+<p>
+<b>Sunit Kumar</b><br>
+Azure DevOps | Kubernetes | Terraform | Cloud Platform Engineering
+</p>
+
+<p>
+GitHub:
+<a href="https://github.com/sunitkumar-vit" target="_blank">
+https://github.com/sunitkumar-vit
+</a>
+</p>
+
+</div>
+
+</div>
+
+</body>
+</html>
