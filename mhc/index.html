@@ -20,6 +20,38 @@
         demonstrating Kubernetes, Azure DevOps, Terraform, Docker,
         HashiCorp Vault, Grafana, Prometheus and Cloudflare integration.
     </p>
+    <h2>Live Environments</h2>
+
+<div class="card">
+    <h3>Development</h3>
+    <p>
+        <a href="https://dev-mhc.sunitdevops.site/" target="_blank">
+            dev-mhc.sunitdevops.site
+        </a>
+    </p>
+</div>
+
+<div class="card">
+    <h3>Pre-Production</h3>
+    <p>
+        <a href="https://preprod-mhc.sunitdevops.site/" target="_blank">
+            preprod-mhc.sunitdevops.site
+        </a>
+    </p>
+</div>
+
+<div class="card">
+    <h3>Production</h3>
+    <p>
+        <a href="https://mhc.sunitdevops.site/" target="_blank">
+            mhc.sunitdevops.site
+        </a>
+    </p>
+</div>
+<h2>Solution Architecture</h2>
+
+<img src="../images/architecture.png"
+     style="width:100%; border-radius:10px;">
 </section>
 
 <section class="projects">
@@ -108,27 +140,39 @@
         <p>mhc.sunitdevops.site</p>
     </div>
 </section>
+<section class="projects">
+    <h2>Kubernetes Platform</h2>
+
+    <div class="card">
+        <h3>Cluster Details</h3>
+
+        <ul>
+            <li>1 Control Plane Node</li>
+            <li>3 Worker Nodes</li>
+            <li>Flannel CNI</li>
+            <li>NGINX Ingress Controller</li>
+            <li>cert-manager</li>
+            <li>Let's Encrypt TLS</li>
+            <li>Cloudflare Tunnel</li>
+        </ul>
+    </div>
+</section>
 
 <section class="projects">
-    <h2>Architecture</h2>
+    <h2>Monitoring Stack</h2>
 
-<pre>
-Internet
-    |
-Cloudflare Tunnel
-    |
-NGINX Ingress
-    |
-Kubernetes Cluster
-    |
-+----------------+
-| Angular Frontend |
-| ASP.NET API      |
-+----------------+
-    |
-SQL Server
-</pre>
+    <div class="card">
+        <h3>Grafana & Prometheus</h3>
 
+        <ul>
+            <li>Cluster Monitoring</li>
+            <li>Node CPU Metrics</li>
+            <li>Node Memory Metrics</li>
+            <li>Pod Monitoring</li>
+            <li>Kubernetes Health Dashboards</li>
+        </ul>
+    </div>
+</section>
 </section>
 
 <footer>
