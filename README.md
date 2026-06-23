@@ -1,4 +1,3 @@
-# sunit-devops-portfolio
 # Sunit Kumar - DevOps Portfolio
 
 This repository contains the documentation and architecture of my DevOps projects.
